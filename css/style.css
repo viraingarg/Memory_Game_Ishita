@@ -1,0 +1,192 @@
+body{
+	background-image:url("back2.jpg");
+	margin:0px;
+}
+
+.header{
+	opacity:0.65;
+	margin: auto;
+	margin-bottom:20px;
+	text-align: center;
+	background-color: white;
+	border:none;
+	width:85.9%;
+}
+
+label{
+	font-size:30px;
+}
+
+#board{
+	opacity:0.8;
+    border-radius:4px;
+	background:#101111;
+	width:500px;
+	height:495px;
+	padding:15px;
+	margin:0px auto;
+	border:none;
+}
+
+#board > div{
+	background-color: white;
+    border-radius:4px;
+	width:100px;
+	height:100px;
+	float:left;
+	margin:10px;
+	padding:1px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+	font-size:93px;
+	font-weight:bold;
+	border:none;
+}
+
+#button{
+	width:60%;
+	font-weight:bold;
+	opacity:0.5;
+    border-radius:4px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#button:hover{
+	color:white;
+	background-color:black;
+	text-align:center;
+}
+
+.main{
+	display:flex;
+	margin-top:10px;
+}
+
+.stard{
+	width:auto;
+}
+
+.starboard{
+	display:flex;
+}
+
+.details{
+	opacity:0.8;
+    border-radius:4px;
+	background:#353838;
+	width:auto;
+	height:40px;
+	padding:15px;
+	padding-top: 1px;
+	margin:0px auto;
+	border:none;
+	text-align:center;
+	display:flex;
+}
+
+.subdetail{
+    border-radius:4px;
+	background:black;
+	width:250px;
+	height:15px;
+	padding:15px;
+	padding-top: 2px;
+	margin:15px auto;
+	border:none;
+	text-align:center;
+	color:white;
+}
+
+.subdetail:hover{
+	background:white;
+	color:black;
+}
+
+.modal {
+	
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 40px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+	border-radius:4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.modal-header {
+    text-align:center;
+    background-color: #2d2c2c;
+    color: white;
+}
+
+.modal-body {
+	text-align:center;
+	padding: 5px 5px;
+	font-size:30px;
+	background-color:#f2f2f2;
+}
+
+
+#mbutton{
+	width:30%;
+	font-weight:bold;
+    border-radius:4px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#mbutton:hover{
+	color:white;
+	background-color:#2d2c2c;
+}
